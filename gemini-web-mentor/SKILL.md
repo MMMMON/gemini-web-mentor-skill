@@ -72,3 +72,5 @@ Before consulting the web mentor, collect necessary local context so that Web Ge
 ## Best Practices
 - **Session Preservation**: Do not sign out or clear browser storage. Leave the browser subagent idle when inactive so session tokens remain intact.
 - **Clear Prompt Framing**: Always specify in the web prompt that the output will be executed locally by an automated assistant, requesting clean code blocks and explicit file targets.
+- **Deep Research Encouraged**: For complex architectural designs, cross-framework technical evaluations, or in-depth domain modeling, actively leverage and encourage Gemini's **Deep Research (深入研究)** mode to formulate comprehensive blueprints.
+- **Autonomous Quota Fallback (Pre-Authorized)**: If Web Gemini encounters rate limits or quota depletion, autonomously transition to Perplexity Pro (leveraging Kimi K3 Thinking, GLM 5.3 Thinking, or Claude Sonnet 5.5) to finish the task without asking the user for permission.
